@@ -1,0 +1,52 @@
+h1 {
+  color: blue;
+  font-size: 12px;
+
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+
+  border: 2px solid black;
+
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+footer p {
+  color: red;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+
+  padding: 10px 20px 30px 40px;
+
+  background-color: green;
+}
+
+.main-block {
+  width: 2000px;
+  height: 300px;
+
+  background-color: blue;
+}
+
+#hero,
+#about-me {
+  height: 100px;
+  width: 2000px;
+
+  background-color: red;
+}
+
+header a {
+  text-decoration: none;
+}

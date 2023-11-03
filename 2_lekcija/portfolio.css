@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header styles */
+header {
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px;
+  background: rgb(40, 158, 159);
+  background: linear-gradient(
+    0deg,
+    rgba(40, 158, 159, 1) 0%,
+    rgba(207, 31, 252, 0.9598214285714286) 100%
+  );
+}
+
+header div {
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header h2 {
+  margin-left: 10px;
+}
