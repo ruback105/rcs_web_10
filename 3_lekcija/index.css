@@ -1,0 +1,35 @@
+p.paragraph {
+  color: blue;
+}
+
+.paragraph {
+  color: yellow;
+}
+
+.super.paragraph {
+  color: orange;
+}
+
+.super[role="button"] {
+  color: purple;
+}
+
+.super:hover {
+}
+
+/* 1.0.0.0.1 */
+p {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+#test {
+  color: black;
+}
+
+p#test.super {
+  color: aqua;
+}

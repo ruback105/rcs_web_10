@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+li {
+  list-style: none;
+}
+
+/* Header styles */
+header {
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #000000;
+  padding: 10px;
+  background: #299c9e;
+  background: linear-gradient(
+    0deg,
+    rgba(40, 158, 159, 1) 0%,
+    rgba(207, 31, 252, 0.9598214285714286) 100%
+  );
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 10;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+header h2 {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+main {
+  margin-top: 74px;
+}
+
+#hero {
+  background: url("media/hero.png");
+  height: calc(100vh - 74px);
+  width: 100vw;
+  position: relative;
+}
+
+#hero div.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 30px;
+}
+
+#hero div.wrapper div {
+  height: 300px;
+  width: 300px;
+}
+
+#hero div.wrapper .red {
+  background-color: #ff0000;
+}
+#hero div.wrapper .green {
+  background-color: #00ff00;
+}
+#hero div.wrapper .blue {
+  background-color: #0000ff;
+}
+
+#contact-me {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0000ff;
+}
+
+/* līdz 970 */
+@media screen and (max-width: 970px) {
+  #hero div.wrapper {
+    flex-direction: column;
+  }
+}
+
+/* no 480px */
+@media screen and (min-width: 480px) {
+  #hero div.wrapper .red {
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 970px) {
+  #hero div.wrapper .green {
+    background-color: chocolate;
+  }
+}
