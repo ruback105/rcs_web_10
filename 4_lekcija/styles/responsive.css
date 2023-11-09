@@ -1,0 +1,19 @@
+/* līdz 970 */
+@media screen and (max-width: 970px) {
+  #hero div.wrapper {
+    flex-direction: column;
+  }
+}
+
+/* no 480px */
+@media screen and (min-width: 480px) {
+  #hero div.wrapper .red {
+    background-color: black;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 970px) {
+  #hero div.wrapper .green {
+    background-color: chocolate;
+  }
+}

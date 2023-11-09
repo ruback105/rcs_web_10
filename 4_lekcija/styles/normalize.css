@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+li {
+  list-style: none;
+}
