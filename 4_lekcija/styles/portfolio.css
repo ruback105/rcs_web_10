@@ -129,11 +129,16 @@ footer {
 
 footer ul {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 
 footer ul li a {
-  color: #fff;
+  color: #f0f8ff;
+}
+
+footer .copywright {
+  margin-top: 10px;
+  gap: 20px;
 }
 
 @keyframes move {
