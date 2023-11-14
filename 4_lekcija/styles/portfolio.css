@@ -117,6 +117,25 @@ main {
   animation: move 2s linear infinite;
 }
 
+footer {
+  background: #299c9e;
+  background: linear-gradient(
+    0deg,
+    rgba(40, 158, 159, 1) 0%,
+    rgba(207, 31, 252, 0.9598214285714286) 100%
+  );
+  padding: 10px;
+}
+
+footer ul {
+  display: flex;
+  gap: 20px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
 @keyframes move {
   0% {
     transform: translateX(0);
