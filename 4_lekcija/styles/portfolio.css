@@ -124,7 +124,7 @@ footer {
     rgba(40, 158, 159, 1) 0%,
     rgba(207, 31, 252, 0.9598214285714286) 100%
   );
-  padding: 15px;
+  padding: 10px;
 }
 
 footer ul {
@@ -138,6 +138,7 @@ footer ul li a {
 
 footer .copywright {
   margin-top: 10px;
+  gap: 20px;
 }
 
 @keyframes move {
