@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <script src="validate.js" defer></script>
+  </head>
+  <body>
+    <form action="" novalidate>
+      <fieldset>
+        <div>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            minlength="8"
+            maxlength="16"
+          />
+        </div>
+
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+
+    <!-- <div>
+      <h2>Counter:</h2>
+      <div style="display: flex; gap: 4px">
+        <button class="dec" style="width: 20px; height: 20px">-</button>
+        <p class="value">0</p>
+        <button class="inc" style="width: 20px; height: 20px">+</button>
+      </div>
+    </div> -->
+  </body>
+</html>

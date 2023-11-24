@@ -91,14 +91,14 @@ main {
   background-color: #0000ff;
 }
 
+#hero div.wrapper div {
+  animation: fadeIn 1s linear;
+}
+
 #contact-me {
   height: 100vh;
   width: 100vw;
   background-color: #0000ff;
-}
-
-#hero div.wrapper div {
-  animation: fadeIn 1s linear;
 }
 
 #contact-me .wrapper {

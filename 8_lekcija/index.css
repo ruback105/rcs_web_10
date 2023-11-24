@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+}
+
+.wrapper {
+  width: 30vw;
+  border-radius: 6px;
+  border: 2px solid #000;
+  padding: 8px;
+}
+
+.wrapper p {
+  margin: 4px;
+  text-align: left;
+}
