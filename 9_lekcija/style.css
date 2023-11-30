@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 12px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 12px;
+}
+
+.wrapper .post {
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrapper .post h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.wrapper .post p {
+  font-size: 1rem;
+  font-weight: 400;
+}
