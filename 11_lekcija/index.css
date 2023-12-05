@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  padding: 12px;
+  display: flex;
+}
+
+.beer-card {
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+h1 {
+  width: 200px;
+}
+
+p {
+  width: 200px;
+}
