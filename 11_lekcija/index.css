@@ -7,6 +7,9 @@
 #root {
   padding: 12px;
   display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  gap: 12px;
 }
 
 .beer-card {
@@ -16,6 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  min-width: 250px;
 }
 
 img {
